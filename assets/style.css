@@ -17,7 +17,7 @@ nav {
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 .logo img {
-  width: 200px;
+  width: 400px;
   padding-left: 20px;
 }
 .cta {
@@ -268,6 +268,10 @@ nav {
   border: 1px solid #89785d;
   color: #fff;
 }
+.menu-btn button:hover{
+  background-color: #89785d;
+  transition: .4s;
+}
 .visit-section{
   display: flex;
   align-items: center;
@@ -277,6 +281,9 @@ nav {
 .visit-content{
   width: 50vw;
   text-align: center;
+}
+.visit-content i{
+  padding: 0 10px;
 }
 .visit-content img{
   width: 100%;

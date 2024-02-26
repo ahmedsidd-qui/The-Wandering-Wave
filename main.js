@@ -1,44 +1,27 @@
-// const timing = document.getElementById("opening-hour");
-// const timingInfo = document.getElementById( "timing-info" );
-
-// function showtime() {
-//     const timingData = document.innerHTML = "<div id='opening-time'><p>Monday - Sunday</br>06:00PM - 01:00AM</p></div>";
-//     timingInfo.textContent = timingData
-//     timingInfo.style.display = "block";
-//     timingInfo.style.color = "white"
-// }
-
-// timingInfo.style.display = "none";
-
-// timing.addEventListener( 'mouseover', showtime);
-// timing.addEventListener( 'mouseout', ()=>{
-//     timingInfo.style.display = "none";
-// })
-
 let productdata = [
    {
-    productname : "Pimms Jug",
+    productname : "The Baconator",
     price :  30,
     image : "/assets/product1.jpg"
    },
    {
-    productname : "Coco Spice",
+    productname : "The Mushroom Melt",
     price : 40,
     image : "/assets/product2.jpg"
    },
    {
     productname : "Punch",
-    price : 40,
+    price : 20,
     image : "/assets/product3.jpg"
    },
    {
-    productname : "Punja",
-    price : 40,
+    productname : "The Blazin' Buffalo",
+    price : 45,
     image : "/assets/product4.jpg"
    },
    {
     productname : "Pimms Jug",
-    price :  30,
+    price :  44,
     image : "/assets/product5.jpg"
    },
    {
