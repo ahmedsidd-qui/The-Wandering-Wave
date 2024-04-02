@@ -10,15 +10,18 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #000000;
   padding: 2rem 0;
   width: 100%;
   position: fixed;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  
 }
-.logo img {
+.logo h1 {
   width: 400px;
-  padding-left: 20px;
+  margin-left: 20px;
+  font-size: 40px;
+  color: #a78041;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 900;
 }
 .cta {
   border: none;
@@ -36,6 +39,7 @@ nav {
 .cta span a{
   text-decoration: none;
   color: #89785d;
+  font-weight: 400;
 }
 
 .hover-underline-animation {
@@ -75,10 +79,6 @@ nav {
 #topButton:hover{
   background-color: rgb(44, 117, 98);
   transition: .3s;
-}
-
-.content{
-  padding-top: 105px;
 }
 .about{
   background-color: rgb(2, 21, 16);
@@ -374,12 +374,4 @@ nav {
 .form-signin a{
   color: #000;
   font-weight: 900;
-}
-@media (max-width : 736px) {
-    nav{
-      
-    }
-    .about-page{
-      
-    }
 }

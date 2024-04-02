@@ -12,6 +12,17 @@ const topButton = document.getElementById("topButton");
   topButton.addEventListener("click", function() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
+
+  const nav = document.getElementById("nav");
+  window.onscroll = function() { scrollFunction() };
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+      nav.style.backgroundColor = "#000";
+    } else {
+      nav.style.backgroundColor = "transparent";
+    }
+  }
 let productdata = [
    {
     productname : "The Baconator",
