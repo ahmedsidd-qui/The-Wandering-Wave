@@ -320,3 +320,49 @@ nav {
   color: #89785d;
   letter-spacing: 4px;
 }
+/* Signin.html */
+
+
+.form-signin{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: end;
+  filter: drop-shadow(1px 1px 50px #000);
+  margin: 30vh 31vw 0 31vw;
+  position: absolute;
+  padding: 15px;
+}
+.form-signin h1{
+  font-size: 50px;
+  font-weight: 900;
+  color: #fff;
+  filter: drop-shadow(1px 1px 10px #000);
+}
+.form-signin input{
+  width: 400px;
+  height: 40px;
+  display: flex;
+  background-color: #000000c7; 
+  border: 1px solid #80808087;
+  color: #89785d ;
+  font-weight: 700;
+}
+.form-signin button{
+  padding: 10px 40px;
+  background-color: #0000005c;
+  color: #fff;
+  border: none;
+}
+.form-signin a{
+  color: #000;
+  font-weight: 900;
+}
+@media (max-width : 736px) {
+    nav{
+      
+    }
+    .about-page{
+      
+    }
+}
