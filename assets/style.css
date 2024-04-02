@@ -60,6 +60,23 @@ nav {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+#topButton {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 40px;   
+  right: 40px;  
+  padding: 15px;  
+  transition: opacity 0.5s ease;
+  border-radius: 50px;
+  background-color: rgba(33, 184, 144, 0.509);
+}
+#topButton:hover{
+  background-color: rgb(44, 117, 98);
+  transition: .3s;
+}
+
 .content{
   padding-top: 105px;
 }

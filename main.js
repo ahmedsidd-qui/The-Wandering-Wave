@@ -1,3 +1,17 @@
+const topButton = document.getElementById("topButton");
+  window.onscroll = function() { scrollFunction() };
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      topButton.style.opacity = 1;
+    } else {
+      topButton.style.opacity = 0;
+    }
+  }
+
+  topButton.addEventListener("click", function() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
 let productdata = [
    {
     productname : "The Baconator",
